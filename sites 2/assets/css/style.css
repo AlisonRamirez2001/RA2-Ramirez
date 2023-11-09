@@ -1,0 +1,55 @@
+body{
+
+}
+h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 12px;
+}
+.col-md-6 img {
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin-left: 12%;
+}
+
+.navbar-brand img{
+    width: 10%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.redes img{
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    height: auto;
+    margin-left: 28%;
+}
+.col-4{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.coso{
+    margin-top: 80px;
+}
+.mapouter{
+    margin-top: 10px;
+    margin-left: 18%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    .mapouter{
+        height: auto ;
+        width: auto;
+
+    }
+}
+p {
+     /* Cambia el color del texto */
+    font-family: "sans-serif"; /* Cambia el tipo de fuente */
+    font-size: 19px; /* Cambia el tamaño de fuente */
+}
